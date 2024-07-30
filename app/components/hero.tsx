@@ -4,7 +4,7 @@ import me from "@/public/me.png";
 
 const Hero = () => {
   return (
-    <div className="md:flex-row md:flex w-[80%] md:w-[56%] mx-auto justify-between pt-20 md:pt-0">
+    <div className="md:flex-row md:flex w-[80%] md:w-[66%] mx-auto justify-between pt-20 md:pt-0">
       <Image alt="me" className="rounded-full" src={me} width={400} height={400}/>
       
       <div className="text-center md:pt-16 pt-10  md:ml-24 ml-0">
