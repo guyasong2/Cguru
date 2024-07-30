@@ -13,7 +13,7 @@ const Hero = () => {
         </h2>
         <h3 className="text-xl text-white">FRONTEND DEVELOPER</h3>
         <hr className="mb-3"/>
-        <p className="text-lg">This portfolio is a representation of all what I've learned and accomplished as a frontend developer</p>
+        <p className="text-lg">This portfolio is a representation of all what i have learned and accomplished as a frontend developer</p>
       </div>
     </div>
   );
