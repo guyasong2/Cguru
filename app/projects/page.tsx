@@ -11,13 +11,13 @@ export default function Projects() {
 
       <div className="md:flex flex-row justify-between space-x-3">
         <div className="">
-        <Image src={project2} width={400} height={600} className="mb-4"/>
+        <Image alt="project1" src={project2} width={400} height={600} className="mb-4"/>
         <a className="underline text-blue-900 text-xl" href="https://www.udown.netlify.app">Udown</a>
         <p>Udown is a youtube video downloader. I used a free video api to build udown</p>
         </div>
 
         <div className="">
-        <Image src={project3} width={400} height={600} className="mb-4"/>
+        <Image alt="project2" src={project3} width={400} height={600} className="mb-4"/>
         <a className="underline text-blue-900 text-xl" href="https://github.com/guyasong2">UrlShortener</a>
         <p>UrlShortener is a site build to help users shorten their websites url to forward to someone</p>
         </div>
@@ -25,13 +25,13 @@ export default function Projects() {
 <br />
       <div className="md:flex flex-row justify-between space-x-3">
         <div className="">
-        <Image src={project4} width={400} height={600} className="mb-4"/>
+        <Image alt="project3" src={project4} width={400} height={600} className="mb-4"/>
         <a className="underline text-blue-900 text-xl" href="https://www.github.com/guyasong2">Todo</a>
         <p>Todo app build with nextjs, typescript and tailwind css. Build to help me know my day to day routine. </p>
         </div>
 
         <div className="">
-        <Image src={project3} width={400} height={600} className="mb-4"/>
+        <Image alt="project4" src={project3} width={400} height={600} className="mb-4"/>
         <a className="underline text-blue-900 text-xl" href="https://github.com/guyasong2">UrlShortener</a>
         <p>UrlShortener is a site build to help users shorten their websites url to forward to someone</p>
         </div>
