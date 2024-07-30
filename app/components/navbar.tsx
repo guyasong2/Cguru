@@ -11,7 +11,7 @@ const Navbar = () => {
       setMenuOpen(!menuOpen)
   )
   return (
-    <nav className="fixed md:bg-transparent bg-blue-400 w-full md:pl-24 md:pr-24">
+    <nav className="fixed bg-blue-400 w-full md:pl-24 md:pr-24">
         <div className="flex md:justify-around justify-between items-center h-full w-full px-4 2xl:px-16 py-4">
          <h1 className='font-bold text-2xl'>Cguru</h1>
          <div>
